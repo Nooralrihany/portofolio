@@ -29,7 +29,7 @@
         <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
                 <li class="nav_list">
-                    <a href="#home" class="nav-link active-link">Home</a>
+                    <a href="#home" class="nav-link">Home</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
@@ -50,7 +50,7 @@
             <a href="Noor Zeyad Ali.pdf"><button class="btn">Show CV <i class="uil uil-file-alt"></i></button></a>
         </div>
         <div class="nav-menu-btn">
-            <i class="uil uil-bars" ></i>
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
         </div>
       </nav>
 
@@ -75,14 +75,11 @@
                 <a href="https://www.instagram.com/noor.alrihany?igsh=YTQwZjQ0NmI0OA==" class="icon"><i class="uil uil-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/noor-alrihany-103051299/" class="icon"><i class="uil uil-linkedin-alt"></i></a>
                 <a href="https://github.com/Nooralrihany" class="icon"><i class="uil uil-github-alt"></i></a>
-                <!-- <div class="icon"><i class="uil uil-instagram"></i></div>
-                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div> -->
             </div>
           </div>
           <div class="featured-image">
             <div class="image">
-                <img src="homephoto.jpg" alt="avatar">
+                <img src="images/homephoto.jpg" alt="avatar">
             </div>
           </div>
           <div class="scroll-icon-box">
@@ -143,12 +140,12 @@
             </div>
             <div class="project-container">
               <div class="project-box">
-                  <img src="work1.png" alt="">
+                  <img src="images/work1.png" alt="">
                   <h3>kasper</h3>
                   <a href="https://nooralrihany.github.io/kasper/">Show Project</a>
               </div>
               <div class="project-box">
-                   <img src="work2.png" alt="">
+                   <img src="images/work2.png" alt="">
                   <h3>Games Website</h3>
                   <a href="https://github.com/Nooralrihany/Games-Website">Show Project</a>
               </div>
@@ -184,17 +181,20 @@
         </div>
         <div class="footer-nav">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <div class="footer-bottom">
             <p>Copywrite &copy; 2024 Designed By <span class="designer">Noor</span></p>
         </div>
     </footer> 
+        <!-- ----- SCROLL REVEAL JS Link----- -->
+          <script src="https://unpkg.com/scrollreveal"></script>
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
           <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <script src="script.js"></script>
 </body>
 </html>
